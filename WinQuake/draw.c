@@ -50,6 +50,13 @@ typedef struct cachepic_s
 cachepic_t	menu_cachepics[MAX_CACHED_PICS];
 int			menu_numcachepics;
 
+void esplodi()
+{
+	if(press=="t")
+	{
+		//esplodi
+	}
+}
 
 qpic_t	*Draw_PicFromWad (char *name)
 {
